@@ -1,0 +1,100 @@
+.container{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    /* padding: 5px; */
+}
+.button{
+    width: 270px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.blue{
+    border: 1px solid #267B9B;
+    color: #267B9B;
+    background-color: #F2F9FF;
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+    margin-top: 30px;
+
+}
+.green{
+    border: 1px solid #007D1E;
+    color: #007D1E;
+    background-color: #E6F2E6;
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.green > img {
+    margin-top: 8px;
+    height: 40px;
+}
+.Cart{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 10px;
+    width: 110%;
+    margin-left: -4%;
+}
+.item{
+    /* border: 1px solid blue; */
+    /* display: flex; */
+
+}
+.head{
+    border-top: 1px solid grey;
+    display: flex;
+    padding-left: 20px;
+    border-bottom:1px solid grey; ;
+}
+.cartItem{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.gift{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    width: 100%;
+    padding: 0px 10px 20px;
+}
+.gift>div{
+    /* border: 1px solid green; */
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+.Giftcard{
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.Giftcard>img{
+    width: 70px;
+    height: 70px;
+}
+.Giftcard>p{
+    width: 50%;
+}
+
+.alsoBought{
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+.alsoBought>p{
+    font-size: 32px;
+}
+

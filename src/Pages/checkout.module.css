@@ -1,0 +1,75 @@
+.main{
+    background-color: rgba(230, 234, 234, 0.816);
+    padding-top: 50px;
+    
+}
+.container{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.inputs{
+    /* border: 1px solid green; */
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+}
+.inputs>input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+}
+.credit{
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+}
+.credit>div>img{
+    width: 38px;
+    cursor: pointer;
+}
+
+.credit>input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+}
+.payment{
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+.payment>div>img{
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
+.submitBtn{
+    padding: 10px;
+    text-align: center;
+}
+.submitBtn>button{
+    background-color: black;;
+    color: white;
+    width: 530px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.submitBtn>p{
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+}
+.summary{
+    /* position: fixed; */
+    background-color: white;
+    padding: 0px 20px;
+    height: 300px;
+    width: 100%;
+
+}
